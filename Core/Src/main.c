@@ -202,9 +202,7 @@ int main(void)
 	TIM3->CR1 |= (1<<0);
 
   /* Infinite loop */
-  while (1)
-  {
-  }
+  while (1) {}
 }
 
 /**
